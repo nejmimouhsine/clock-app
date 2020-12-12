@@ -1,9 +1,13 @@
 import React from 'react';
+import './App.css';
+import Quote from './components/quote/quote';
 
 function App() {
     return (
-        <div className="App">
-            <h1>Clock App</h1>
+        <div className='App'>
+            <div className='container'>
+                <Quote />
+            </div>
         </div>
     );
 }
